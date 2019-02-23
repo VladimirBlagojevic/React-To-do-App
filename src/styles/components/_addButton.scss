@@ -1,0 +1,29 @@
+.addBtn{
+    font-family: 'Lato', sans-serif;
+    background-color: $color-primary;
+    border: none;
+    outline: none;
+    color:white;
+    display: block;
+    margin:0 auto;
+    font-size: 4.2rem;
+    padding: 1rem;
+    border-radius:50%;
+    height: 7rem;
+    width: 7rem;
+    font-weight: 400;
+    margin-top: -3.8rem;
+    transition: all 0.3s;
+    
+    
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: $box-shadow;
+    }
+
+    &:active {
+        transform: translateY(1px);
+        box-shadow: $box-shadow-small;
+    }
+} 

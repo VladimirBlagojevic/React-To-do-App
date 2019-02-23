@@ -1,0 +1,18 @@
+.header{
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: row;
+    box-shadow: $box-shadow-small;
+
+    &__title{
+        padding: 1.5rem;
+        letter-spacing: 1.5px;
+        margin-left: 5rem;
+    }
+
+    &__img{
+        align-self: center;
+        padding-left: 1rem;
+        width: 12%;
+    }
+}
